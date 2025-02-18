@@ -67,7 +67,7 @@ export default function Navbar() {
 
         {/* logo */}
         <div className='nav__logo'>
-          <Link to="/">Shivani<span>.</span></Link>
+          <Link to="/">Ecom<span>.</span></Link>
         </div>
 
         {/* nav icons */}
