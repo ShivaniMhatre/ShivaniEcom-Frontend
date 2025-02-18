@@ -29,7 +29,7 @@ const colors = [
 export default function UpdateProduct() {
     const { id } = useParams();
     const navigate = useNavigate()
-    const { user } = useSelector((state) => state.auth)
+    const { user } = useSelector((state) => state.auth) 
     const [product, setProduct] = useState({
         name: '',
         category: '',
